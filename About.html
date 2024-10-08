@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us - PowerTech Solutions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="StyleSheets/About.css" />
+  </head>
+  <body>
+    <!-- Header&Navigation content with aria landmarks -->
+    <header>
+      <div class="logo">
+        <img
+          src="images/KehucoLimited.png"
+          alt="Kehuco Logo"
+          width="600"
+          height="600"
+        />
+      </div>
+      <nav class="navigation" aria-label="Main Navigation">
+        <ul>
+          <li>
+            <img
+              src="images/icons/home-svgrepo-com.svg"
+              alt="home icon"
+              width="32"
+              height="32"
+            />
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <img
+              src="images/icons/engineer-working-svgrepo-com.svg"
+              alt="about icon"
+              width="32"
+              height="32"
+            />
+            <a href="About.html" class="active" aria-current="page">About Us</a>
+          </li>
+          <li>
+            <img
+              src="images/icons/electrical-service-svgrepo-com.svg"
+              alt="service icon"
+              width="32"
+              height="32"
+            />
+            <a href="Services.html">Services</a>
+          </li>
+          <li>
+            <img
+              src="images/icons/contact-chatting-communication-svgrepo-com.svg"
+              alt="contact icon"
+              width="32"
+              height="32"
+            />
+            <a href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content with aria landmarks -->
+    <main id="main-content">
+      <section class="hero" id="home" aria-label="Welcome to Kehuco">
+        <div>
+          <h1>WELCOME TO KEHUCO</h1>
+          <p>Your Trusted Partner for Power Solutions</p>
+        </div>
+      </section>
+      <section class="about-hero sections" aria-labelledby="about-heading">
+        <div class="container">
+          <h1 id="about-heading">About Kehuco</h1>
+          <p>
+            Kehuco (K) Limited is a telecommunications, engineering and power
+            solutions and services provider, incorporated in Nairobi, Kenya in
+            1985, registered in Tanzania (1995), Uganda (2007) and Rwanda
+            (2008).
+          </p>
+        </div>
+      </section>
+
+      <section class="mission sections" aria-labelledby="mission-heading">
+        <div class="container">
+          <h2 id="mission-heading">Our Mission</h2>
+          <p>
+            At Kehuco Limited, we are committed to delivering innovative and
+            sustainable solutions in electrical engineering and energy
+            management. Our goal is to enhance the efficiency, safety, and
+            reliability of power systems for our clients worldwide.
+          </p>
+        </div>
+      </section>
+
+      <section class="our-values sections" aria-labelledby="values-heading">
+        <div class="container">
+          <h2 id="values-heading">Our Values</h2>
+          <ul class="values-list">
+            <li class="first-value">
+              <span>
+                <strong>Innovation:</strong> Continuously evolving to meet the
+                changing energy landscape.
+              </span>
+            </li>
+            <li class="second-value">
+              <span>
+                <strong>Integrity:</strong> Upholding the highest standards of
+                professionalism and transparency.
+              </span>
+            </li>
+            <li class="third-value">
+              <span>
+                <strong>Sustainability:</strong> Pioneering eco-friendly and
+                energy-efficient solutions.
+              </span>
+            </li>
+            <li class="fourth-value">
+              <span>
+                <strong>Safety:</strong> Prioritizing safety in every aspect of
+                our services.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="our-story" aria-labelledby="story-heading"></section>
+
+      <section class="our-team sections" aria-labelledby="team-heading">
+        <div class="container">
+          <h2 id="team-heading">Meet the Team</h2>
+          <div class="team-grid">
+            <article class="team-member">
+              <img
+                src="images/John Doe.jpg"
+                alt="John Doe, Chief Executive Officer"
+                width="1200px"
+                height="800px"
+                loading="lazy"
+              />
+              <h3>John Doe</h3>
+              <p>Chief Executive Officer</p>
+            </article>
+            <article class="team-member">
+              <img
+                src="images/Jane Smith.jpg"
+                alt="Jane Smith, Head of Operations"
+                width="1200px"
+                height="800px"
+                loading="lazy"
+              />
+              <h3>Jane Smith</h3>
+              <p>Head of Operations</p>
+            </article>
+            <article class="team-member">
+              <img
+                src="images/Mark Johnson.jpg"
+                alt="Mark Johnson, Lead Engineer"
+                width="1200px"
+                height="800px"
+                loading="lazy"
+              />
+              <h3>Mark Johnson</h3>
+              <p>Lead Engineer</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="testimonials sections"
+        aria-labelledby="testimonials-heading"
+      >
+        <div class="container">
+          <h2 id="testimonials-heading">What Our Clients Say</h2>
+          <div class="testimonial-grid">
+            <div class="testimonial">
+              <img
+                src="images/Sarah Wilson.jpg"
+                alt="testimonial-image"
+                width="1200px"
+                height="800px"
+                loading="lazy"
+              />
+              <p>
+                "Kehuco helped us redesign our electrical systems with a focus
+                on energy efficiency. Their team was professional and the
+                results were fantastic."
+              </p>
+              <p class="client">— Sarah Wilson, Operations Manager</p>
+            </div>
+            <div class="testimonial">
+              <img
+                src="images/Micheal Lee.jpg"
+                alt="testimonial image"
+                width="1200px"
+                height="800px"
+                loading="lazy"
+              />
+              <p>
+                "They provided exceptional service for our transformer testing
+                and maintenance. We highly recommend them for any industrial
+                power system needs."
+              </p>
+              <p class="client">— Michael Lee, Plant Engineer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta sections" aria-labelledby="cta-heading">
+        <div class="container">
+          <h2 id="cta-heading">Ready to work with us?</h2>
+          <p>
+            Whether you're looking to audit your existing power systems or need
+            a full-scale electrical design and implementation, PowerTech
+            Solutions is here to help. Contact us today to learn how we can
+            provide innovative energy solutions tailored to your needs.
+          </p>
+          <a
+            href="contact.html"
+            class="btn"
+            role="button"
+            aria-label="Contact PowerTech Solutions"
+            >Get in Touch</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- integrate the companies logo -->
+      <p>&copy; 2024 Kehuco. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="About.html">About</a>
+        <a href="Services.html">Services</a>
+        <a href="Contact.html" target="_blank">Contact</a>
+        <a href="About.html" class="back-to-top">Back To Top</a>
+      </div>
+    </footer>
+  </body>
+</html>

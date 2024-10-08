@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - KEHUCO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="StyleSheets/contact.css" />
+  </head>
+  <body>
+    <!-- Header&Navigation content with aria landmarks -->
+    <header>
+      <div class="logo">
+        <img
+          src="images/KehucoLimited.png"
+          alt="Kehuco Logo"
+          width="600"
+          height="600"
+        />
+      </div>
+      <nav aria-label="Main Navigation" class="navigation">
+        <ul>
+          <li>
+            <img
+              src="images/icons/home-svgrepo-com.svg"
+              alt="home icon"
+              width="32"
+              height="32"
+            />
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <img
+              src="images/icons/engineer-working-svgrepo-com.svg"
+              alt="about icon"
+              width="32"
+              height="32"
+            />
+            <a href="About.html">About Us</a>
+          </li>
+          <li>
+            <img
+              src="images/icons/electrical-service-svgrepo-com.svg"
+              alt="service icon"
+              width="32"
+              height="32"
+            />
+            <a href="Services.html">Services</a>
+          </li>
+          <li>
+            <img
+              src="images/icons/contact-chatting-communication-svgrepo-com.svg"
+              alt="contact icon"
+              width="32"
+              height="32"
+            />
+            <a href="Contact.html" class="active" aria-current="page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home" aria-label="Welcome to Kehuco">
+        <div>
+          <h1>WELCOME TO KEHUCO</h1>
+          <p>Your Trusted Partner for Power Solutions</p>
+        </div>
+      </section>
+      <section class="contact-us" id="contact-us">
+        <div class="top-details">
+          <h2>Contact Us</h2>
+          <p class="intro-paragraph">
+            At KEHUCO, we are deeply committed to building lasting relationships
+            with our clients, grounded in trust and reliability. Your
+            satisfaction is our top priority, and we are always here to assist
+            you with any needs or inquiries. Whether you have questions, require
+            support, or simply want to learn more about our services, don’t
+            hesitate to reach out. Our team is dedicated to being available
+            whenever you need us, ensuring that you always have the help you
+            need when you need it most.
+          </p>
+        </div>
+
+        <div class="contact-flex">
+          <div class="contact-details">
+            <h2>For More Information</h2>
+            <p>
+              Need more details about our services? Fill out the form below, and
+              we’ll get back to you shortly. Let's connect!
+            </p>
+            <div class="business">
+              <h3>Business Hours</h3>
+              <p>
+                <img
+                  src="images/icons/clock-seven-svgrepo-com.svg"
+                  alt="clock icon"
+                  width="32"
+                  height="32"
+                />
+                <span> Monday to Friday: 8:00 AM - 6:00 PM </span>
+              </p>
+              <p>
+                <img
+                  src="images/icons/clock-seven-svgrepo-com.svg"
+                  alt="clock icon"
+                  width="32"
+                  height="32"
+                />
+                <span> Saturday: 9:00 AM - 1:00 PM </span>
+              </p>
+              <p>
+                <img
+                  src="images/icons/clock-seven-svgrepo-com.svg"
+                  alt="clock icon"
+                  width="32"
+                  height="32"
+                />
+                <span> Sunday: Closed </span>
+              </p>
+            </div>
+          </div>
+          <form action="/submit-form" method="post" class="contact-form">
+            <fieldset>
+              <legend class="form-title">
+                <img
+                  src="images/icons/email-svgrepo-com.svg"
+                  alt=""
+                  width="42"
+                  height="42"
+                  loading="lazy"
+                />
+                <h3>Get in Touch</h3>
+              </legend>
+              <div class="input-elements-wrapper">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="input-elements-wrapper">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="input-elements-wrapper">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="input-elements-wrapper">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  cols="25"
+                  placeholder="Type here"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-button">
+                <span> Send Message </span>
+                <img
+                  src="images/icons/send-svgrepo-com.svg"
+                  alt="Send Message icon"
+                  width="22"
+                  height="22"
+                />
+              </button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="contact-locations">
+          <address class="location kenya">
+            <h3>KEHUCO (KENYA) LIMITED</h3>
+            <div class="address-details">
+              <img
+                src="images/icons/location-pin-svgrepo-com (1).svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                AACC Building, 1st floor, Suit No. 7, Waiyaki Way
+              </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/mailbox-envelope-post-office-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                P.O Box 59187-00200, City Square Nairobi, Kenya
+              </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/telephone-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                Tel: +254 (2) 4450474,<br />
+                Direct: +254 2 4451355
+              </span>
+            </div>
+            <div class="address-details">
+              <span class="address-info"> Fax: +254 (2) 4450473 </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/mobile-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                Mobile: +254 733 545115,<br />
+                +254 722 962941
+              </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/email-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                Email: <a href="mailto:sales@kehuco.com">sales@kehuco.com</a>
+              </span>
+            </div>
+          </address>
+          <address class="location uganda">
+            <h3>KEHUCO (UGANDA) LIMITED</h3>
+            <div class="address-details">
+              <img
+                src="images/icons/location-pin-svgrepo-com (1).svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                Kagga House, Plot No 2, Bandali Close, Bugolobi
+              </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/mailbox-envelope-post-office-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info"> P.O Box 29128,Kampala, Uganda </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/telephone-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info"> Tel: +256 (0414) 222849 </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/mobile-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+
+              <span class="address-info">
+                Mobile: +256 753 192284,<br />+256 775 156130
+              </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/email-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                Email: <a href="mailto:sales@kehuco.com">sales@kehuco.com</a>
+              </span>
+            </div>
+          </address>
+          <address class="location rwanda">
+            <h3>KEHUCO RWANDA S.A.R.L</h3>
+            <div class="address-details">
+              <img
+                src="images/icons/location-pin-svgrepo-com (1).svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info"> Manu Plaza, Nyabugogo </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/mailbox-envelope-post-office-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info"> P.O Box 4822, Kigali, Rwanda </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/telephone-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info"> Tel: +250 03155755 </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/mobile-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info"> Mobile: +254 722 962941 </span>
+            </div>
+            <div class="address-details">
+              <img
+                src="images/icons/email-svgrepo-com.svg"
+                alt=""
+                width="28"
+                height="28"
+                loading="lazy"
+              />
+              <span class="address-info">
+                Email: <a href="mailto:sales@kehuco.com">sales@kehuco.com</a>
+              </span>
+            </div>
+          </address>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- integrate the compoanies logo -->
+      <p>&copy; 2024 Kehuco. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="About.html">About</a>
+        <a href="Services.html">Services</a>
+        <a href="Contact.html" target="_blank">Contact</a>
+        <a href="Contact.html" class="back-to-top">Back To Top</a>
+      </div>
+    </footer>
+  </body>
+</html>
