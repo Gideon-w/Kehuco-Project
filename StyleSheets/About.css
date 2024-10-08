@@ -1,0 +1,46 @@
+.sections {
+  padding: 1em 2em;
+  /* border: 1px solid lime; */
+  margin: 1em 0.5em;
+}
+
+.our-values ul {
+  list-style-type: none;
+}
+
+.first-value {
+  background-image: url("../images/icons/creative-mind-innovation-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1.5em;
+}
+
+.second-value {
+  background-image: url("../images/icons/file-check-03-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1.5em;
+}
+
+.third-value {
+  background-image: url("../images/icons/renewable-energy-saving-energy-environment-conservation-sustainability-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1.5em;
+}
+
+.fourth-value {
+  background-image: url("../images/icons/protection-secure-security-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1.5em;
+}
+
+.team-member img,
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50px;
+  object-fit: cover;
+}

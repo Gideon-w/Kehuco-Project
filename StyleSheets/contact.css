@@ -1,0 +1,63 @@
+.contact-us {
+  max-width: 95%;
+  margin-inline: auto;
+  padding: 0.5em 1em;
+  /* border: 1px solid lime; */
+}
+
+.top-details h2 {
+  text-transform: capitalize;
+}
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+.business p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5em;
+  max-width: 76ch;
+}
+.business p > span {
+  margin-top: 0;
+}
+.form {
+  margin-top: 0;
+}
+.contact-locations {
+  max-width: 90%;
+  margin-inline: auto;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  gap: 1em;
+}
+.location {
+  max-width: 18em;
+  margin-top: 0;
+  padding: 0.8em 1em;
+  border-radius: 0.5em;
+  border: 1px solid var(--Experimental-Grey-Light);
+  box-shadow: 0 0.5em 0.5em var(--Experimental-Grey-Light);
+}
+.location h3 {
+  font-size: 1rem;
+  font-weight: var(--FW-bold);
+}
+
+.address-details {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.address-details img,
+.address-details span {
+  margin-top: 0;
+}
+
+.address-details span {
+  font-size: 0.8rem;
+  font-weight: var(--FW-normal);
+}

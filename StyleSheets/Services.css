@@ -1,0 +1,97 @@
+:root {
+  /*=====================================
+      =            COLORS              =
+      =====================================*/
+
+  /* LINK STATE COLORS */
+  --Link-Normal-State: hsl(40, 31%, 89%); /*normal state*/
+  --Link-Visited-State: hsl(353, 58%, 31%); /*visited state*/
+  --Link-Active-State: hsl(0, 78%, 62%); /*active state*/
+  --Link-Hover-State: hsl(34, 97%, 64%); /*hover state*/
+  --Current-Page: hsl(47, 88%, 63%); /*current page*/
+
+  --Header-Background-Color: hsl(215, 32%, 27%); /*in use*/
+
+  --Text-Color-For-Darker-Backgrounds: hsl(37, 100%, 92%);
+  --Navigation-Buttons-Color: hsl(224, 21%, 52%);
+  --Experimental-Brown-Light: hsla(30, 32%, 27%, 0.4);
+  --Experimental-Brown-medium: hsla(30, 32%, 27%, 0.8);
+  --Experimental-Brown-dark: hsla(30, 32%, 27%);
+
+  --Experimental-Grey-Light: hsl(214, 12%, 37%, 0.3);
+  --Experimental-Grey-Medium: hsl(214, 12%, 37%, 0.7);
+  --Experimental-Grey-Dark: hsl(214, 12%, 37%);
+}
+.services-hero .container {
+  max-width: 95%;
+  margin-inline: auto;
+}
+.services-hero .container p {
+  max-width: 76ch;
+}
+.grid-layout img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.7em;
+}
+
+.grid-layout {
+  max-width: 95%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 1em;
+  /* border: 1px solid green; */
+}
+.service-details {
+  margin-bottom: 1.5em;
+}
+.service-details h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: -0.5px;
+  letter-spacing: -0.5px;
+}
+
+.service-details p,
+.service-details ul {
+  font-size: 1rem;
+  max-width: 72ch;
+}
+.service-details ul {
+  list-style-type: none;
+  margin-top: 1.25em;
+}
+
+.service-item ul li {
+  background-image: url("../images/icons/electric-energy-interface-ui-ux-svgrepo-com.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1.5em;
+  margin-top: 1em;
+}
+
+.service-item {
+  min-width: 25em;
+  margin-top: 0;
+}
+.service-item > a:link {
+  width: 10em;
+  font-size: 0.8rem;
+  padding: 0.5em 0.8em;
+  text-decoration: none;
+  border-radius: 0.5em;
+  background-color: var(--Navigation-Buttons-Color);
+  color: var(--Text-Color-For-Darker-Backgrounds);
+  box-shadow: 0 0.2em 0.5em var(--Experimental-Grey-Light);
+}
+
+.cta .container {
+  max-width: 95%;
+  margin-inline: auto;
+  /* border: 1px solid lime; */
+}
+.cta .container p {
+  max-width: 79ch;
+}
